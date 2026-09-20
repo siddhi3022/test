@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/siddhi3022/HoGyaNa.git'
+                    url: 'https://github.com/siddhi3022/test.git'
 
                 echo 'Source code checked out successfully.'
             }
